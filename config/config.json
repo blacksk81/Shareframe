@@ -1,0 +1,36 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "head-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/head/HeadWebPart.js",
+          "manifest": "./src/webparts/head/HeadWebPart.manifest.json"
+        }
+      ]
+    },
+    "list-access-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/listAccess/ListAccessWebPart.js",
+          "manifest": "./src/webparts/listAccess/ListAccessWebPart.manifest.json"
+        }
+      ]
+    },
+    "lista-accesos-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/listaAccesos/ListaAccesosWebPart.js",
+          "manifest": "./src/webparts/listaAccesos/ListaAccesosWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "HeadWebPartStrings": "lib/webparts/head/loc/{locale}.js",
+    "ListAccessWebPartStrings": "lib/webparts/listAccess/loc/{locale}.js",
+    "ListaAccesosWebPartStrings": "lib/webparts/listaAccesos/loc/{locale}.js"
+  }
+}

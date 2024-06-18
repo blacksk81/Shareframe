@@ -1,0 +1,1 @@
+{"version":3,"file":"Head.module.scss.js","sourceRoot":"","sources":["../../../../src/webparts/head/components/Head.module.scss.ts"],"names":[],"mappings":"AAAA,oBAAoB;AACpB,OAAO,CAAC,mBAAmB,CAAC,CAAC;AAC7B,IAAM,MAAM,GAAG;IACb,IAAI,EAAE,eAAe;IACrB,KAAK,EAAE,gBAAgB;IACvB,OAAO,EAAE,kBAAkB;IAC3B,YAAY,EAAE,uBAAuB;IACrC,KAAK,EAAE,gBAAgB;CACxB,CAAC;AAEF,eAAe,MAAM,CAAC;AACtB,mBAAmB"}

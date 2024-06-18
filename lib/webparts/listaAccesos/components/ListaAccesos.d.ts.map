@@ -1,0 +1,1 @@
+{"version":3,"file":"ListaAccesos.d.ts","sourceRoot":"","sources":["../../../../src/webparts/listaAccesos/components/ListaAccesos.tsx"],"names":[],"mappings":"AAAA,OAAO,KAAK,KAAK,MAAM,OAAO,CAAC;AAE/B,OAAO,KAAK,EAAE,kBAAkB,EAAE,MAAM,sBAAsB,CAAC;AAG/D,MAAM,CAAC,OAAO,OAAO,YAAa,SAAQ,KAAK,CAAC,SAAS,CAAC,kBAAkB,EAAE,EAAE,CAAC;IACxE,MAAM,IAAI,KAAK,CAAC,YAAY,CAAC,kBAAkB,CAAC;CAyBxD"}

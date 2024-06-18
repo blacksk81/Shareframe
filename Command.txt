@@ -1,0 +1,51 @@
+*********************************************************************************************************************
+* https://xxxxxx.sharepoint.com/sites/appCatalog/SitePages/Inicio.aspx : Donde se subie en empaquetado              *
+* config/serve.json                                                                                                 *
+* https://pnp.github.io/sp-dev-fx-property-controls/ Utilidades   ///////////////////////////////////               *
+*                                                                                                                   *
+*********************************************************************************************************************
+
+// Configuracion de entorno
+https://learn.microsoft.com/es-es/sharepoint/dev/spfx/set-up-your-development-environment
+https://www.youtube.com/watch?v=2mUb5182gPI 
+
+-> Crear proyecto
+        -- yo @microsoft/sharepoint
+          ❯ WebPart 
+            Extension
+            Library
+            Adaptive Card Extension
+
+    Pide instalar Npm install
+
+-> Modificar en config/serve.json
+        -- "initialPage": "https://{tenantDomain}/_layouts/workbench.aspx" por "initialPage": "https://xxxx.sharepoint.com/_layouts/workbench.aspx"
+
+        -> Ocupación del 100% del ancho 
+            -- en fichero manifest.json del webpart agregar   "supportsFullBleed": true, debajo de requiresCustomScript
+
+
+// Inicialiar 
+    gulp serve
+
+// si el puerto esta en uso terminalo
+    En Windows
+    Abre el Símbolo del sistema como administrador.
+    Ejecuta el siguiente comando para encontrar el PID del proceso que está usando el puerto 4321:
+    -- netstat -aon | findstr :4321
+    Localiza el PID (el número en la última columna).
+    Luego, mata el proceso con el PID encontrado:
+    -- taskkill /PID <PID> /F
+    :: vuelve  a correr el gulp serve y debera iniciar en el navegador en Localiza
+    
+// Compilación del proyecto
+    -- gulp build --ship
+    -- gulp bundle --ship
+    -- gulp package-solution --ship  // creara una nueva carpeta llamada sharepoint donde se compilar el webpart para subirlo al Catalogo
+
+    El compilado lo subimos a appCatalog https://xxxx.sharepoint.com/sites/appCatalog Buscamos en el menu Aplicaciónes para sharepoint
+      Puedes ponerlo disponible para todos los sitio o solo para los que los agreges
+        Si es para un solo sitio en la parte de configuracion -> agregar Aplicacion -> Mis Aplicaciones -> De mi Organizacion y agregar
+
+//
+
