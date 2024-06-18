@@ -10,14 +10,6 @@
         }
       ]
     },
-    "list-access-web-part": {
-      "components": [
-        {
-          "entrypoint": "./lib/webparts/listAccess/ListAccessWebPart.js",
-          "manifest": "./src/webparts/listAccess/ListAccessWebPart.manifest.json"
-        }
-      ]
-    },
     "lista-accesos-web-part": {
       "components": [
         {
