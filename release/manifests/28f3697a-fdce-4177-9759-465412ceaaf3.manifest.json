@@ -38,7 +38,7 @@
     "scriptResources": {
       "lista-accesos-web-part": {
         "type": "path",
-        "path": "lista-accesos-web-part_e8ef9c6532aaf88286fc.js"
+        "path": "lista-accesos-web-part.js"
       },
       "react": {
         "type": "component",
@@ -67,7 +67,7 @@
       },
       "ListaAccesosWebPartStrings": {
         "type": "path",
-        "path": "ListaAccesosWebPartStrings_en-us_2851f8dbcb09aba9783c094a9b7e8754.js"
+        "path": "ListaAccesosWebPartStrings_en-us.js"
       }
     }
   }

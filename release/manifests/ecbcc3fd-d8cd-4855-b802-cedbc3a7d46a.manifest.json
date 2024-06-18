@@ -39,7 +39,7 @@
     "scriptResources": {
       "head-web-part": {
         "type": "path",
-        "path": "head-web-part_0140b99e034a32e33e0e.js"
+        "path": "head-web-part.js"
       },
       "react": {
         "type": "component",
@@ -68,7 +68,7 @@
       },
       "HeadWebPartStrings": {
         "type": "path",
-        "path": "HeadWebPartStrings_en-us_2851f8dbcb09aba9783c094a9b7e8754.js"
+        "path": "HeadWebPartStrings_en-us.js"
       },
       "@microsoft/sp-lodash-subset": {
         "type": "component",
